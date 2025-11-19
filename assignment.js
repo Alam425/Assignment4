@@ -9,7 +9,6 @@ function cashOut(i) {
 
 
 function validEmail(str) {
-    // console.log();
     if ((typeof str !== "string") || (str.split("")[0] === ",") || (str.split("")[0] === "-") || (str.split("")[0] === "_") || (str.split("")[0] === "=") || (str.split("")[0] === "!") || (str.split("")[0] === "#") || (str.split("")[0] === "$") || (str.split("")[0] === "%") || (str.split("")[0] === "^") || (str.split("")[0] === "&") || (str.split("")[0] === "*") || (str.split("")[0] === "+") || (str.split("")[0] === "@") || (str.endsWith(".com") === false) || (str.indexOf("@") === str.length - 1)) {
         return false;
     }
@@ -44,7 +43,7 @@ function electionResult(votes) {
         return "Banana"
     }
     else if (bananaCount = mangoCount) {
-        return "Tie"
+        return "Draw"
     }
 }
 
@@ -90,5 +89,12 @@ function countTime(time) {
     return `${hours}h ${minutes}m ${seconds}s`;
 }
 
-const input = [];
-console.log(countTime(input));
+const input = [3434, 6787, 35789, 3243,3434,3434,3434,3434,23424];
+// console.log(countTime(input));
+
+
+
+
+function calculateVat(){
+
+}
